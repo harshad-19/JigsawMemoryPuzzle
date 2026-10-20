@@ -1,0 +1,25 @@
+# ============================================================
+# db.properties.example — JigsawMemoryPuzzle
+#
+# PURPOSE
+#   Template for the database configuration file.
+#   Copy this file to:
+#       src/main/resources/db.properties
+#   and fill in your own values.
+#
+# IMPORTANT — DO NOT COMMIT THE REAL FILE
+#   src/main/resources/db.properties is listed in .gitignore.
+#   Committing it would expose your MySQL password to everyone
+#   who can access the repository.
+#
+# HOW THE APPLICATION LOADS THIS FILE
+#   DBConnection.java reads db.properties from the classpath
+#   using getClassLoader().getResourceAsStream("db.properties").
+#   Maven copies src/main/resources/db.properties into the
+#   compiled WAR automatically, so it becomes available on
+#   the classpath at runtime without any extra configuration.
+# ============================================================
+
+db.url=jdbc:mysql://localhost:3306/jigsaw_db
+db.username=root
+db.password=YOUR_MYSQL_PASSWORD_HERE
