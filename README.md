@@ -285,10 +285,10 @@ copy target\JigsawMemoryPuzzle.war %CATALINA_HOME%\webapps\
 
 ---
 
-## Team & Contributor Information
+## Team:
 
-- **Project owner:** [harshad-19](https://github.com/harshad-19)
-- **Team member:** [nowhere9900](https://github.com/nowhere9900)
+- 1. [harshad-19](https://github.com/harshad-19)
+- 2. [nowhere9900](https://github.com/nowhere9900)
 
 ---
 
